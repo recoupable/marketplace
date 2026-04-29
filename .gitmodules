@@ -1,0 +1,3 @@
+[submodule "music-catalogs"]
+	path = music-catalogs
+	url = https://github.com/recoupable/music-catalogs.git
