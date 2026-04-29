@@ -1,3 +1,3 @@
-[submodule "music-catalogs"]
-	path = music-catalogs
-	url = https://github.com/recoupable/music-catalogs.git
+[submodule "music-catalog-deal-review"]
+	path = music-catalog-deal-review
+	url = https://github.com/recoupable/music-catalog-deal-review.git
