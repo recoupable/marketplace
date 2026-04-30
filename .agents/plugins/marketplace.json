@@ -7,29 +7,29 @@
   },
   "plugins": [
     {
-      "name": "music-catalog-deal-review",
+      "name": "music-catalog-diligence",
       "source": {
-        "path": "./music-catalog-deal-review"
+        "path": "./music-catalog-diligence"
       },
       "version": "0.1.0",
-      "description": "Music catalog deal review with data-room ingestion, royalty normalization, rights checks, and valuation analysis.",
+      "description": "Music catalog diligence with data-room ingestion, royalty normalization, rights checks, and valuation analysis.",
       "author": {
         "name": "Recoupable",
         "email": "agent@recoupable.com",
         "url": "https://recoupable.com"
       },
       "homepage": "https://recoupable.com",
-      "repository": "https://github.com/recoupable/music-catalog-deal-review",
+      "repository": "https://github.com/recoupable/music-catalog-diligence",
       "license": "Apache-2.0",
       "keywords": [
         "music",
         "catalogs",
-        "deal-review",
+        "diligence",
         "royalties",
         "music-rights",
         "data-room",
         "valuation",
-        "diligence",
+        "catalog-diligence",
         "seller-prep",
         "financing",
         "chain-of-title",
@@ -37,8 +37,8 @@
         "agent-skills"
       ],
       "interface": {
-        "displayName": "Music Catalog Deal Review",
-        "shortDescription": "Music catalog deal review and valuation skills for AI agents",
+        "displayName": "Music Catalog Diligence",
+        "shortDescription": "Music catalog diligence and valuation skills for AI agents",
         "longDescription": "Turn messy catalog data rooms into source-cited deal packages with normalized royalty data, rights exceptions, valuation workpapers, and buyer, seller, or lender-ready memos.",
         "developerName": "Recoupable",
         "category": "Music",

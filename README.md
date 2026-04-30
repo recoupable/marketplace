@@ -10,7 +10,7 @@ distributed independently.
 
 | Plugin | Purpose |
 | ------ | ------- |
-| `music-catalog-deal-review` | Music catalog deal review with data-room ingestion, royalty normalization, rights checks, and valuation analysis. |
+| `music-catalog-diligence` | Music catalog diligence with data-room ingestion, royalty normalization, rights checks, and valuation analysis. |
 
 ## Install with Claude Code
 
@@ -18,7 +18,7 @@ Add the marketplace, then install the plugin you need:
 
 ```bash
 /plugin marketplace add recoupable/plugins
-/plugin install music-catalog-deal-review@recoupable-plugins
+/plugin install music-catalog-diligence@recoupable-plugins
 ```
 
 Claude Code reads the marketplace from
@@ -31,7 +31,7 @@ Codex reads the repo-scoped marketplace from
 `.agents/plugins/marketplace.json`. Each listed plugin points to a folder that
 contains a `.codex-plugin/plugin.json` manifest.
 
-The current Codex surface for `music-catalog-deal-review` packages the bundled
+The current Codex surface for `music-catalog-diligence` packages the bundled
 `skills/` directory. Claude-specific `commands/` and `agents/` remain available
 through Claude Code, but they are not advertised as Codex features until Codex
 supports that packaging path.
