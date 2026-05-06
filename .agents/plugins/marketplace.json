@@ -9,7 +9,9 @@
     {
       "name": "music-catalog-diligence",
       "source": {
-        "path": "./music-catalog-diligence"
+        "source": "url",
+        "url": "https://github.com/recoupable/music-catalog-diligence.git",
+        "ref": "main"
       },
       "version": "0.1.0",
       "description": "Music catalog diligence with data-room ingestion, royalty normalization, rights checks, and valuation analysis.",
