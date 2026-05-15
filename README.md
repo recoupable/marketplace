@@ -15,8 +15,8 @@ This repo is a curated plugin marketplace for Claude Code, Claude Cowork, and Co
 Add the marketplace, then install the plugin you need:
 
 ```bash
-/plugin marketplace add recoupable/plugins
-/plugin install recoup-catalog-deals@recoupable-plugins
+/plugin marketplace add recoupable/marketplace
+/plugin install recoup-catalog-deals@recoup-marketplace
 ```
 
 Claude Code reads the marketplace from `.claude-plugin/marketplace.json`. Each plugin entry uses a `github` source object so the plugin is fetched from its own repo, independent of any submodule the registry uses internally.
@@ -26,7 +26,7 @@ Claude Code reads the marketplace from `.claude-plugin/marketplace.json`. Each p
 In Claude Desktop's **Cowork** tab:
 
 1. **Customize → Plugins → + → Create plugin → Add marketplace**
-2. Paste `https://github.com/recoupable/plugins`
+2. Paste `https://github.com/recoupable/marketplace`
 3. Click **Sync**
 
 The plugin appears in your Personal plugins list and its slash commands are available immediately. Cowork plugins require a paid Claude plan (Pro, Max, Team, or Enterprise).
@@ -36,7 +36,7 @@ The plugin appears in your Personal plugins list and its slash commands are avai
 Add the registry as a marketplace via the CLI:
 
 ```bash
-codex plugin marketplace add recoupable/plugins
+codex plugin marketplace add recoupable/marketplace
 ```
 
 Then open the plugin directory inside Codex and install:

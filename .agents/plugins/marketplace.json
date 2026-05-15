@@ -1,5 +1,5 @@
 {
-  "name": "recoupable-plugins",
+  "name": "recoup-marketplace",
   "owner": {
     "name": "Recoup",
     "email": "agent@recoupable.com",
@@ -13,7 +13,7 @@
         "url": "https://github.com/recoupable/recoup-catalog-deals.git",
         "ref": "main"
       },
-      "version": "0.1.0",
+      "version": "0.2.0",
       "description": "Music catalog deals: data-room ingestion, royalty normalization, rights checks, and valuation analysis for buy-side, seller-prep, financing, and post-close.",
       "author": {
         "name": "Recoup",

@@ -28,7 +28,7 @@ a full bundle.
 2. Verify the plugin in that repository.
 3. Update this registry's submodule pointer and marketplace manifests.
 4. Verify both marketplace JSON files.
-5. Open a PR in `recoupable/plugins`.
+5. Open a PR in `recoupable/marketplace`.
 6. Update the mono `plugins` submodule pointer only after the registry PR lands.
 
 Do not move existing public skills from `recoupable/skills` into a plugin
