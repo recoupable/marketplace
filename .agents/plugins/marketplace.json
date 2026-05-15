@@ -93,7 +93,7 @@
         "url": "https://github.com/recoupable/recoup-content-plugin.git",
         "ref": "main"
       },
-      "version": "0.1.0",
+      "version": "0.2.0",
       "description": "Recoup content workflows: skills and commands for AI agents to draft, edit, and publish content for artists across Recoup's surfaces.",
       "author": {
         "name": "Recoup",
