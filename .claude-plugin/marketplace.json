@@ -76,6 +76,38 @@
         "platform-tooling",
         "ai-agents"
       ]
+    },
+    {
+      "name": "recoup-content-plugin",
+      "source": {
+        "source": "github",
+        "repo": "recoupable/recoup-content-plugin"
+      },
+      "description": "Recoup content workflows: skills and commands for AI agents to draft, edit, and publish content for artists across Recoup's surfaces.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Recoup",
+        "email": "agent@recoupable.com",
+        "url": "https://recoupable.com"
+      },
+      "homepage": "https://recoupable.com",
+      "repository": "https://github.com/recoupable/recoup-content-plugin",
+      "license": "Apache-2.0",
+      "keywords": [
+        "recoup",
+        "recoup-content",
+        "music",
+        "content-creation",
+        "ai-agents",
+        "agent-skills",
+        "artist-marketing"
+      ],
+      "category": "Music",
+      "tags": [
+        "recoup-content-plugin",
+        "content-creation",
+        "artist-marketing"
+      ]
     }
   ]
 }
