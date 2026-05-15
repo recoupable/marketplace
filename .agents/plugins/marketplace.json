@@ -1,7 +1,7 @@
 {
   "name": "recoupable-plugins",
   "owner": {
-    "name": "Recoupable",
+    "name": "Recoup",
     "email": "agent@recoupable.com",
     "url": "https://recoupable.com"
   },
@@ -16,7 +16,7 @@
       "version": "0.1.0",
       "description": "Music catalog deals: data-room ingestion, royalty normalization, rights checks, and valuation analysis for buy-side, seller-prep, financing, and post-close.",
       "author": {
-        "name": "Recoupable",
+        "name": "Recoup",
         "email": "agent@recoupable.com",
         "url": "https://recoupable.com"
       },
