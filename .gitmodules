@@ -1,9 +1,12 @@
-[submodule "recoup-catalog-deals"]
-	path = recoup-catalog-deals
-	url = https://github.com/recoupable/recoup-catalog-deals.git
+[submodule "recoup-catalogs-plugin"]
+	path = recoup-catalogs-plugin
+	url = https://github.com/recoupable/recoup-catalogs-plugin.git
 [submodule "recoup-platform-plugin"]
 	path = recoup-platform-plugin
 	url = https://github.com/recoupable/recoup-platform-plugin.git
 [submodule "recoup-content-plugin"]
 	path = recoup-content-plugin
 	url = https://github.com/recoupable/recoup-content-plugin.git
+[submodule "recoup-research-plugin"]
+	path = recoup-research-plugin
+	url = https://github.com/recoupable/recoup-research-plugin.git
