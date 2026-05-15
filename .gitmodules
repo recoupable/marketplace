@@ -7,3 +7,6 @@
 [submodule "recoup-content-plugin"]
 	path = recoup-content-plugin
 	url = https://github.com/recoupable/recoup-content-plugin.git
+[submodule "recoup-research-plugin"]
+	path = recoup-research-plugin
+	url = https://github.com/recoupable/recoup-research-plugin.git
