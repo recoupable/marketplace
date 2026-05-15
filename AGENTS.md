@@ -1,6 +1,6 @@
-# Agent instructions for Recoupable plugins
+# Agent instructions for Recoup plugins
 
-This repo is a curated marketplace for Recoupable agent plugins. It is not the
+This repo is a curated marketplace for Recoup agent plugins. It is not the
 home for every skill. Broad, standalone skills live in `recoupable/skills`;
 product-like bundles live here as plugins.
 
