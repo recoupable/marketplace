@@ -9,6 +9,7 @@ This repo is a curated plugin marketplace for Claude Code, Claude Cowork, and Co
 | Plugin | Purpose |
 | ------ | ------- |
 | `recoup-catalog-deals` | Music catalog deals: data-room ingestion, royalty normalization, rights checks, and valuation analysis for buy-side, seller-prep, financing, and post-close. |
+| `recoup-platform-plugin` | Recoup platform helpers: cross-cutting skills, commands, and workflows for AI agents working with Recoup's chat, API, and platform surface. |
 
 ## Install with Claude Code
 

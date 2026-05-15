@@ -1,3 +1,6 @@
 [submodule "recoup-catalog-deals"]
 	path = recoup-catalog-deals
 	url = https://github.com/recoupable/recoup-catalog-deals.git
+[submodule "recoup-platform-plugin"]
+	path = recoup-platform-plugin
+	url = https://github.com/recoupable/recoup-platform-plugin.git
