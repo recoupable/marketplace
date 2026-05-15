@@ -42,7 +42,7 @@
         "displayName": "Recoup Catalog Deals",
         "shortDescription": "Music catalog deals: royalties, rights, valuation, and deal materials for AI agents",
         "longDescription": "Turn messy catalog data rooms into source-cited deal packages with normalized royalty data, rights exceptions, valuation workpapers, and buyer, seller, or lender-ready memos.",
-        "developerName": "Recoupable",
+        "developerName": "Recoup",
         "category": "Music",
         "capabilities": ["Read", "Write"],
         "websiteURL": "https://recoupable.com",

@@ -1,6 +1,6 @@
-# Recoupable Plugins
+# Recoup Plugins
 
-Registry repo for Recoupable agent plugins.
+Registry repo for Recoup agent plugins.
 
 This repo is a curated plugin marketplace for Claude Code, Claude Cowork, and Codex. Each plugin lives in its own GitHub repo (referenced from the marketplace files in this registry) so it can be developed, versioned, and distributed independently.
 
