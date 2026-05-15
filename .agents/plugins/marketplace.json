@@ -7,31 +7,31 @@
   },
   "plugins": [
     {
-      "name": "music-catalog-diligence",
+      "name": "recoup-catalog-deals",
       "source": {
         "source": "url",
-        "url": "https://github.com/recoupable/music-catalog-diligence.git",
+        "url": "https://github.com/recoupable/recoup-catalog-deals.git",
         "ref": "main"
       },
       "version": "0.1.0",
-      "description": "Music catalog diligence with data-room ingestion, royalty normalization, rights checks, and valuation analysis.",
+      "description": "Music catalog deals: data-room ingestion, royalty normalization, rights checks, and valuation analysis for buy-side, seller-prep, financing, and post-close.",
       "author": {
         "name": "Recoupable",
         "email": "agent@recoupable.com",
         "url": "https://recoupable.com"
       },
       "homepage": "https://recoupable.com",
-      "repository": "https://github.com/recoupable/music-catalog-diligence",
+      "repository": "https://github.com/recoupable/recoup-catalog-deals",
       "license": "Apache-2.0",
       "keywords": [
         "music",
         "catalogs",
-        "diligence",
+        "catalog-deals",
         "royalties",
         "music-rights",
         "data-room",
         "valuation",
-        "catalog-diligence",
+        "deal-review",
         "seller-prep",
         "financing",
         "chain-of-title",
@@ -39,8 +39,8 @@
         "agent-skills"
       ],
       "interface": {
-        "displayName": "Music Catalog Diligence",
-        "shortDescription": "Music catalog diligence and valuation skills for AI agents",
+        "displayName": "Recoup Catalog Deals",
+        "shortDescription": "Music catalog deals: royalties, rights, valuation, and deal materials for AI agents",
         "longDescription": "Turn messy catalog data rooms into source-cited deal packages with normalized royalty data, rights exceptions, valuation workpapers, and buyer, seller, or lender-ready memos.",
         "developerName": "Recoupable",
         "category": "Music",

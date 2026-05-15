@@ -8,7 +8,7 @@ This repo is a curated plugin marketplace for Claude Code, Claude Cowork, and Co
 
 | Plugin | Purpose |
 | ------ | ------- |
-| `music-catalog-diligence` | Music catalog diligence with data-room ingestion, royalty normalization, rights checks, and valuation analysis. |
+| `recoup-catalog-deals` | Music catalog deals: data-room ingestion, royalty normalization, rights checks, and valuation analysis for buy-side, seller-prep, financing, and post-close. |
 
 ## Install with Claude Code
 
@@ -16,7 +16,7 @@ Add the marketplace, then install the plugin you need:
 
 ```bash
 /plugin marketplace add recoupable/plugins
-/plugin install music-catalog-diligence@recoupable-plugins
+/plugin install recoup-catalog-deals@recoupable-plugins
 ```
 
 Claude Code reads the marketplace from `.claude-plugin/marketplace.json`. Each plugin entry uses a `github` source object so the plugin is fetched from its own repo, independent of any submodule the registry uses internally.
