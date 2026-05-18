@@ -122,6 +122,46 @@
         "websiteURL": "https://recoupable.com",
         "brandColor": "#345A5D"
       }
+    },
+    {
+      "name": "recoup-research-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/recoupable/recoup-research-plugin.git",
+        "ref": "main"
+      },
+      "version": "0.1.0",
+      "description": "Music industry research: artist analytics, audience insights, playlist intelligence, competitive analysis, trend detection, and outreach — powered by Recoup's research API.",
+      "author": {
+        "name": "Recoup",
+        "email": "support@recoupable.com",
+        "url": "https://recoupable.com"
+      },
+      "homepage": "https://recoupable.com",
+      "repository": "https://github.com/recoupable/recoup-research-plugin",
+      "license": "Apache-2.0",
+      "keywords": [
+        "music",
+        "research",
+        "artist-analytics",
+        "playlist-pitching",
+        "audience-analysis",
+        "competitive-analysis",
+        "trend-detection",
+        "chartmetric",
+        "music-industry",
+        "agent-skills"
+      ],
+      "interface": {
+        "displayName": "Recoup Research",
+        "shortDescription": "Music industry research — artist analytics, audience insights, playlist intelligence, and more",
+        "longDescription": "Full-stack music industry research for AI agents. Run artist research sweeps, discover emerging talent, find playlist pitch targets, compare competitive positions, and draft outreach — all powered by Recoup's research API with 30+ endpoints covering Chartmetric data, web intelligence, and people search.",
+        "developerName": "Recoup",
+        "category": "Music",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://recoupable.com",
+        "brandColor": "#345A5D"
+      }
     }
   ]
 }

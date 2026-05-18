@@ -108,6 +108,42 @@
         "content-creation",
         "artist-marketing"
       ]
+    },
+    {
+      "name": "recoup-research-plugin",
+      "source": {
+        "source": "github",
+        "repo": "recoupable/recoup-research-plugin"
+      },
+      "description": "Music industry research: artist analytics, audience insights, playlist intelligence, competitive analysis, trend detection, and outreach — powered by Recoup's research API.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Recoup",
+        "email": "support@recoupable.com",
+        "url": "https://recoupable.com"
+      },
+      "homepage": "https://recoupable.com",
+      "repository": "https://github.com/recoupable/recoup-research-plugin",
+      "license": "Apache-2.0",
+      "keywords": [
+        "music",
+        "research",
+        "artist-analytics",
+        "playlist-pitching",
+        "audience-analysis",
+        "competitive-analysis",
+        "trend-detection",
+        "chartmetric",
+        "music-industry",
+        "agent-skills"
+      ],
+      "category": "Music",
+      "tags": [
+        "recoup-research-plugin",
+        "artist-analytics",
+        "playlist-intelligence",
+        "trend-detection"
+      ]
     }
   ]
 }
