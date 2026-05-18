@@ -144,6 +144,41 @@
         "playlist-intelligence",
         "trend-detection"
       ]
+    },
+    {
+      "name": "recoupable-skills",
+      "source": {
+        "source": "github",
+        "repo": "recoupable/skills"
+      },
+      "description": "Core Recoup skills bundle: first-run setup, music-industry research, streaming-growth playbooks, release management, songwriting, and direct Recoup API navigation. Start here when installing Recoup in Claude.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Recoupable",
+        "email": "agent@recoupable.com",
+        "url": "https://recoupable.com"
+      },
+      "homepage": "https://recoupable.com",
+      "repository": "https://github.com/recoupable/skills",
+      "license": "Apache-2.0",
+      "keywords": [
+        "music",
+        "recoup-setup",
+        "artist-management",
+        "songwriting",
+        "music-marketing",
+        "analytics",
+        "release-management",
+        "chartmetric",
+        "agent-skills"
+      ],
+      "category": "Music",
+      "tags": [
+        "recoupable-skills",
+        "recoup-setup",
+        "onboarding",
+        "music-industry"
+      ]
     }
   ]
 }
