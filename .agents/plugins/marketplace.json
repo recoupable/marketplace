@@ -130,7 +130,7 @@
         "url": "https://github.com/recoupable/recoup-research-plugin.git",
         "ref": "main"
       },
-      "version": "0.1.0",
+      "version": "0.2.0",
       "description": "Music industry research: artist analytics, audience insights, playlist intelligence, competitive analysis, trend detection, and outreach — powered by Recoup's research API.",
       "author": {
         "name": "Recoup",
