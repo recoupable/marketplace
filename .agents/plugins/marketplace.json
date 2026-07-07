@@ -1,46 +1,105 @@
 {
   "name": "recoupable-plugins",
   "owner": {
-    "name": "Recoupable",
+    "name": "Recoup",
     "email": "agent@recoupable.com",
     "url": "https://recoupable.com"
   },
   "plugins": [
     {
-      "name": "music-catalog-diligence",
-      "source": {
-        "path": "./music-catalog-diligence"
+      "name": "recoup-platform-plugin",
+      "source": { "path": "./recoup-platform-plugin" },
+      "version": "0.2.0",
+      "description": "Onboarding, health checks, and cross-cutting helpers for working with the Recoup platform from inside Codex.",
+      "author": {
+        "name": "Recoup",
+        "email": "support@recoupable.com",
+        "url": "https://recoupable.com"
       },
+      "homepage": "https://recoupable.com",
+      "repository": "https://github.com/recoupable/recoup-platform-plugin",
+      "license": "Apache-2.0",
+      "keywords": ["recoup", "recoup-platform", "music", "ai-agents", "agent-skills", "onboarding", "platform-tooling"],
+      "interface": {
+        "displayName": "Recoup Platform",
+        "shortDescription": "Onboarding and health checks for AI agents using the Recoup music platform",
+        "longDescription": "The Recoup platform plugin helps AI agents get started with Recoup's music business infrastructure. Includes guided onboarding (API validation, capability discovery, demo queries), health diagnostics, and cross-cutting helpers. Install this first, then add domain plugins (research, content, catalog diligence) based on your workflow.",
+        "developerName": "Recoup",
+        "category": "Music",
+        "capabilities": ["Read"],
+        "websiteURL": "https://recoupable.com",
+        "brandColor": "#345A5D"
+      }
+    },
+    {
+      "name": "recoup-research-plugin",
+      "source": { "path": "./recoup-research-plugin" },
+      "version": "0.1.0",
+      "description": "Music industry research: artist analytics, audience insights, playlist intelligence, competitive analysis, trend detection, and outreach — powered by Recoup's research API.",
+      "author": {
+        "name": "Recoup",
+        "email": "support@recoupable.com",
+        "url": "https://recoupable.com"
+      },
+      "homepage": "https://recoupable.com",
+      "repository": "https://github.com/recoupable/recoup-research-plugin",
+      "license": "Apache-2.0",
+      "keywords": ["music", "research", "artist-analytics", "playlist-pitching", "audience-analysis", "competitive-analysis", "trend-detection", "chartmetric", "music-industry", "agent-skills"],
+      "interface": {
+        "displayName": "Recoup Research",
+        "shortDescription": "Music industry research — artist analytics, audience insights, playlist intelligence, and competitive analysis",
+        "longDescription": "Full-spectrum music industry research for AI agents. Run artist deep dives, analyze audience demographics, scout playlists for pitching opportunities, benchmark against competitors, detect emerging trends, and generate outreach for industry contacts. Powered by Recoup's research API with Chartmetric, Spotify, and social platform data.",
+        "developerName": "Recoup",
+        "category": "Music",
+        "capabilities": ["Read"],
+        "websiteURL": "https://recoupable.com",
+        "brandColor": "#345A5D"
+      }
+    },
+    {
+      "name": "recoup-content-plugin",
+      "source": { "path": "./recoup-content-plugin" },
+      "version": "0.3.0",
+      "description": "Generate, edit, and publish content for artists across Recoup's surfaces.",
+      "author": {
+        "name": "Recoup",
+        "email": "support@recoupable.com",
+        "url": "https://recoupable.com"
+      },
+      "homepage": "https://recoupable.com",
+      "repository": "https://github.com/recoupable/recoup-content-plugin",
+      "license": "Apache-2.0",
+      "keywords": ["recoup", "recoup-content", "music", "content-creation", "ai-agents", "agent-skills", "artist-marketing"],
+      "interface": {
+        "displayName": "Recoup Content",
+        "shortDescription": "Generate, edit, and publish artist content for Recoup",
+        "longDescription": "A content workflows plugin for Recoup. Bundles skills and commands that help AI agents draft, edit, and publish content for artists across Recoup's surfaces — short-form music videos, captions, images, and the supporting building blocks.",
+        "developerName": "Recoup",
+        "category": "Music",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://recoupable.com",
+        "brandColor": "#345A5D"
+      }
+    },
+    {
+      "name": "music-catalog-diligence",
+      "source": { "path": "./music-catalog-diligence" },
       "version": "0.1.0",
       "description": "Music catalog diligence with data-room ingestion, royalty normalization, rights checks, and valuation analysis.",
       "author": {
-        "name": "Recoupable",
+        "name": "Recoup",
         "email": "agent@recoupable.com",
         "url": "https://recoupable.com"
       },
       "homepage": "https://recoupable.com",
       "repository": "https://github.com/recoupable/music-catalog-diligence",
       "license": "Apache-2.0",
-      "keywords": [
-        "music",
-        "catalogs",
-        "diligence",
-        "royalties",
-        "music-rights",
-        "data-room",
-        "valuation",
-        "catalog-diligence",
-        "seller-prep",
-        "financing",
-        "chain-of-title",
-        "royalty-audit",
-        "agent-skills"
-      ],
+      "keywords": ["music", "catalogs", "diligence", "royalties", "music-rights", "data-room", "valuation", "catalog-diligence", "seller-prep", "financing", "chain-of-title", "royalty-audit", "agent-skills"],
       "interface": {
         "displayName": "Music Catalog Diligence",
         "shortDescription": "Music catalog diligence and valuation skills for AI agents",
         "longDescription": "Turn messy catalog data rooms into source-cited deal packages with normalized royalty data, rights exceptions, valuation workpapers, and buyer, seller, or lender-ready memos.",
-        "developerName": "Recoupable",
+        "developerName": "Recoup",
         "category": "Music",
         "capabilities": ["Read", "Write"],
         "websiteURL": "https://recoupable.com",

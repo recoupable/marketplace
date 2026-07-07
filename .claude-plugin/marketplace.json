@@ -1,46 +1,78 @@
 {
   "name": "recoupable-plugins",
   "owner": {
-    "name": "Recoupable",
+    "name": "Recoup",
     "email": "agent@recoupable.com",
     "url": "https://recoupable.com"
   },
   "plugins": [
+    {
+      "name": "recoup-platform-plugin",
+      "source": "./recoup-platform-plugin",
+      "description": "Claude Code plugin for the Recoup platform — onboarding, health checks, and cross-cutting helpers for working with Recoup's API and agent ecosystem.",
+      "version": "0.2.0",
+      "author": {
+        "name": "Recoup",
+        "email": "support@recoupable.com",
+        "url": "https://recoupable.com"
+      },
+      "homepage": "https://recoupable.com",
+      "repository": "https://github.com/recoupable/recoup-platform-plugin",
+      "license": "Apache-2.0",
+      "keywords": ["recoup", "recoup-platform", "music", "ai-agents", "agent-skills", "onboarding", "platform-tooling"],
+      "category": "Music",
+      "tags": ["onboarding", "health-check", "platform"]
+    },
+    {
+      "name": "recoup-research-plugin",
+      "source": "./recoup-research-plugin",
+      "description": "Music industry research: artist analytics, audience insights, playlist intelligence, competitive analysis, trend detection, and outreach — powered by Recoup's research API.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Recoup",
+        "email": "support@recoupable.com",
+        "url": "https://recoupable.com"
+      },
+      "homepage": "https://recoupable.com",
+      "repository": "https://github.com/recoupable/recoup-research-plugin",
+      "license": "Apache-2.0",
+      "keywords": ["music", "research", "artist-analytics", "playlist-pitching", "audience-analysis", "competitive-analysis", "trend-detection", "chartmetric", "music-industry", "agent-skills"],
+      "category": "Music",
+      "tags": ["research", "analytics", "audience", "playlists", "trends"]
+    },
+    {
+      "name": "recoup-content-plugin",
+      "source": "./recoup-content-plugin",
+      "description": "Claude Code plugin for Recoup content workflows — generating, editing, and publishing content for artists across Recoup's surfaces.",
+      "version": "0.3.0",
+      "author": {
+        "name": "Recoup",
+        "email": "support@recoupable.com",
+        "url": "https://recoupable.com"
+      },
+      "homepage": "https://recoupable.com",
+      "repository": "https://github.com/recoupable/recoup-content-plugin",
+      "license": "Apache-2.0",
+      "keywords": ["recoup", "recoup-content", "music", "content-creation", "ai-agents", "agent-skills", "artist-marketing"],
+      "category": "Music",
+      "tags": ["content", "video", "social", "publishing"]
+    },
     {
       "name": "music-catalog-diligence",
       "source": "./music-catalog-diligence",
       "description": "Music catalog diligence with data-room ingestion, royalty normalization, rights checks, and valuation analysis.",
       "version": "0.1.0",
       "author": {
-        "name": "Recoupable",
+        "name": "Recoup",
         "email": "agent@recoupable.com",
         "url": "https://recoupable.com"
       },
       "homepage": "https://recoupable.com",
       "repository": "https://github.com/recoupable/music-catalog-diligence",
       "license": "Apache-2.0",
-      "keywords": [
-        "music",
-        "catalogs",
-        "diligence",
-        "royalties",
-        "music-rights",
-        "data-room",
-        "valuation",
-        "catalog-diligence",
-        "seller-prep",
-        "financing",
-        "chain-of-title",
-        "royalty-audit",
-        "agent-skills"
-      ],
+      "keywords": ["music", "catalogs", "diligence", "royalties", "music-rights", "data-room", "valuation", "catalog-diligence", "seller-prep", "financing", "chain-of-title", "royalty-audit", "agent-skills"],
       "category": "Music",
-      "tags": [
-        "music-catalog-diligence",
-        "royalty-normalization",
-        "rights-diligence",
-        "valuation"
-      ]
+      "tags": ["music-catalog-diligence", "royalty-normalization", "rights-diligence", "valuation"]
     }
   ]
 }
