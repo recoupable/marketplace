@@ -13,7 +13,7 @@
         "repo": "recoupable/recoup-catalogs-plugin"
       },
       "description": "Music catalog deals: data-room ingestion, royalty normalization, rights checks, and valuation analysis for buy-side, seller-prep, financing, and post-close.",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "author": {
         "name": "Recoup",
         "email": "agent@recoupable.com",
