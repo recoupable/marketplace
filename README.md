@@ -9,7 +9,7 @@ This repo is a curated plugin marketplace for Claude Code, Claude Cowork, and Co
 | Plugin | Purpose |
 | ------ | ------- |
 | `recoup-catalog-deals` | Music catalog deals: data-room ingestion, royalty normalization, rights checks, and valuation analysis for buy-side, seller-prep, financing, and post-close. |
-| `recoup-platform-plugin` | Recoup platform helpers: cross-cutting skills, commands, and workflows for AI agents working with Recoup's chat, API, and platform surface. |
+| `recoup-platform-plugin` | Recoup account setup and platform workflows: host-managed MCP OAuth, workspace discovery and separate secure REST credentials. |
 | `recoup-content-plugin` | Recoup content workflows: skills and commands for AI agents to draft, edit, and publish content for artists across Recoup's surfaces. |
 | `recoup-research-plugin` | Music industry research: artist analytics, audience insights, playlist intelligence, competitive analysis, trend detection, and outreach — powered by Recoup's research API. |
 
@@ -62,7 +62,8 @@ Use the explicit per-runtime source object instead:
 {
   "source": {
     "source": "github",
-    "repo": "recoupable/<plugin-repo-name>"
+    "repo": "recoupable/<plugin-repo-name>",
+    "sha": "<released-40-character-commit>"
   }
 }
 ```
@@ -74,12 +75,17 @@ Use the explicit per-runtime source object instead:
   "source": {
     "source": "url",
     "url": "https://github.com/recoupable/<plugin-repo-name>.git",
-    "ref": "main"
+    "ref": "<released-40-character-commit>"
   }
 }
 ```
 
 Both formats let consumers pull the plugin's actual repo independently of any submodule resolution.
+Pin released updates to the verified commit in both source objects and the
+registry submodule. Claude uses `sha`; Codex uses a commit `ref`. Refresh these
+pins after the owning plugin PR merges and verify the fetched manifest/version
+before publishing the registry update. A mutable branch does not identify a
+reviewed release.
 
 ## Release checklist
 

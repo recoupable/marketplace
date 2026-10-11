@@ -49,7 +49,8 @@
       "name": "recoup-platform-plugin",
       "source": {
         "source": "github",
-        "repo": "recoupable/recoup-platform-plugin"
+        "repo": "recoupable/recoup-platform-plugin",
+        "sha": "f140a92fba58520e6c8fad02313a62665b740190"
       },
       "description": "Recoup account setup and platform workflows: host-managed MCP OAuth, workspace discovery and separate secure REST credentials.",
       "version": "0.2.1",
@@ -67,21 +68,24 @@
         "music",
         "ai-agents",
         "agent-skills",
-        "chat",
-        "platform-tooling"
+        "account-setup",
+        "oauth",
+        "rest"
       ],
       "category": "Music",
       "tags": [
         "recoup-platform-plugin",
-        "platform-tooling",
-        "ai-agents"
+        "account-setup",
+        "oauth",
+        "rest"
       ]
     },
     {
       "name": "recoup-content-plugin",
       "source": {
         "source": "github",
-        "repo": "recoupable/recoup-content-plugin"
+        "repo": "recoupable/recoup-content-plugin",
+        "sha": "5efbdd0e9f1811fff55f3b84ae0df5db61fb30ec"
       },
       "description": "Recoup content workflows: skills and commands for AI agents to draft, edit, and publish content for artists across Recoup's surfaces.",
       "version": "0.3.1",
@@ -113,9 +117,10 @@
       "name": "recoup-research-plugin",
       "source": {
         "source": "github",
-        "repo": "recoupable/recoup-research-plugin"
+        "repo": "recoupable/recoup-research-plugin",
+        "sha": "557526aaf7efa348dc2276baad8d5de97873111e"
       },
-      "description": "Music industry research: artist analytics, audience insights, playlist intelligence, competitive analysis, trend detection, and outreach — powered by Recoup's research API.",
+      "description": "Music industry research: artist analytics, audience insights, playlist intelligence, competitive analysis, trend detection, and outreach \u2014 powered by Recoup's research API.",
       "version": "0.2.1",
       "author": {
         "name": "Recoup",
