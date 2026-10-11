@@ -50,7 +50,7 @@
       "source": {
         "source": "github",
         "repo": "recoupable/recoup-platform-plugin",
-        "sha": "d5bdffab9cbd6b369c09586e1fd7b3edf1bcaf8c"
+        "sha": "bb9f6bc4a05deb251df86c0781ef77422c1523f3"
       },
       "description": "Recoup account setup and platform workflows: host-managed MCP OAuth, workspace discovery and separate secure REST credentials.",
       "version": "0.2.1",
@@ -85,7 +85,7 @@
       "source": {
         "source": "github",
         "repo": "recoupable/recoup-content-plugin",
-        "sha": "5efbdd0e9f1811fff55f3b84ae0df5db61fb30ec"
+        "sha": "9d3cf8120a457a3ed84643e174e6cd8f49d96dac"
       },
       "description": "Recoup content workflows: skills and commands for AI agents to draft, edit, and publish content for artists across Recoup's surfaces.",
       "version": "0.3.1",
@@ -118,7 +118,7 @@
       "source": {
         "source": "github",
         "repo": "recoupable/recoup-research-plugin",
-        "sha": "557526aaf7efa348dc2276baad8d5de97873111e"
+        "sha": "e9a306715cdf7e36e21040e4a47ee0f5efd8f76f"
       },
       "description": "Music industry research: artist analytics, audience insights, playlist intelligence, competitive analysis, trend detection, and outreach \u2014 powered by Recoup's research API.",
       "version": "0.2.1",
