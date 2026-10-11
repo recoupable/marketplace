@@ -44,7 +44,10 @@
         "longDescription": "Turn messy catalog data rooms into source-cited deal packages with normalized royalty data, rights exceptions, valuation workpapers, and buyer, seller, or lender-ready memos.",
         "developerName": "Recoup",
         "category": "Music",
-        "capabilities": ["Read", "Write"],
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
         "websiteURL": "https://recoupable.com",
         "brandColor": "#345A5D"
       }
@@ -56,8 +59,8 @@
         "url": "https://github.com/recoupable/recoup-platform-plugin.git",
         "ref": "main"
       },
-      "version": "0.1.0",
-      "description": "Recoup platform helpers: cross-cutting skills, commands, and workflows for AI agents working with Recoup's chat, API, and platform surface.",
+      "version": "0.2.1",
+      "description": "Recoup account setup and platform workflows: host-managed MCP OAuth, workspace discovery and separate secure REST credentials.",
       "author": {
         "name": "Recoup",
         "email": "agent@recoupable.com",
@@ -78,10 +81,13 @@
       "interface": {
         "displayName": "Recoup Platform",
         "shortDescription": "Cross-cutting Recoup platform helpers and skills for AI agents",
-        "longDescription": "A general-purpose Recoup platform plugin. Bundles skills and commands that help AI agents work with Recoup's chat, API, and surrounding workflows. Start here for cross-cutting Recoup tooling that does not belong inside a single domain plugin.",
+        "longDescription": "Connect a real Recoup account through host-managed MCP OAuth, discover authorized tools and workspaces, and use separately stored REST credentials when a workflow needs them.",
         "developerName": "Recoup",
         "category": "Music",
-        "capabilities": ["Read", "Write"],
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
         "websiteURL": "https://recoupable.com",
         "brandColor": "#345A5D"
       }
@@ -93,7 +99,7 @@
         "url": "https://github.com/recoupable/recoup-content-plugin.git",
         "ref": "main"
       },
-      "version": "0.1.0",
+      "version": "0.3.1",
       "description": "Recoup content workflows: skills and commands for AI agents to draft, edit, and publish content for artists across Recoup's surfaces.",
       "author": {
         "name": "Recoup",
@@ -115,10 +121,13 @@
       "interface": {
         "displayName": "Recoup Content",
         "shortDescription": "Generate, edit, and publish artist content for Recoup",
-        "longDescription": "A content workflows plugin for Recoup. Bundles skills and commands that help AI agents draft, edit, and publish content for artists across Recoup's surfaces \u2014 captions, blurbs, release copy, social posts, and more.",
+        "longDescription": "A content workflows plugin for Recoup. Bundles skills and commands that help AI agents draft, edit, and publish content for artists across Recoup's surfaces — captions, blurbs, release copy, social posts, and more.",
         "developerName": "Recoup",
         "category": "Music",
-        "capabilities": ["Read", "Write"],
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
         "websiteURL": "https://recoupable.com",
         "brandColor": "#345A5D"
       }
@@ -130,7 +139,7 @@
         "url": "https://github.com/recoupable/recoup-research-plugin.git",
         "ref": "main"
       },
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Music industry research: artist analytics, audience insights, playlist intelligence, competitive analysis, trend detection, and outreach — powered by Recoup's research API.",
       "author": {
         "name": "Recoup",
@@ -148,17 +157,19 @@
         "audience-analysis",
         "competitive-analysis",
         "trend-detection",
-        "chartmetric",
         "music-industry",
         "agent-skills"
       ],
       "interface": {
         "displayName": "Recoup Research",
         "shortDescription": "Music industry research — artist analytics, audience insights, playlist intelligence, and more",
-        "longDescription": "Full-stack music industry research for AI agents. Run artist research sweeps, discover emerging talent, find playlist pitch targets, compare competitive positions, and draft outreach — all powered by Recoup's research API with 30+ endpoints covering Chartmetric data, web intelligence, and people search.",
+        "longDescription": "Research artists, inspect available audience and playlist evidence, compare positions and prepare outreach through the Recoup research API. Preserve returned provenance and report coverage gaps.",
         "developerName": "Recoup",
         "category": "Music",
-        "capabilities": ["Read", "Write"],
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
         "websiteURL": "https://recoupable.com",
         "brandColor": "#345A5D"
       }
