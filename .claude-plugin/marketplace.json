@@ -49,10 +49,11 @@
       "name": "recoup-platform-plugin",
       "source": {
         "source": "github",
-        "repo": "recoupable/recoup-platform-plugin"
+        "repo": "recoupable/recoup-platform-plugin",
+        "sha": "bb9f6bc4a05deb251df86c0781ef77422c1523f3"
       },
-      "description": "Recoup platform helpers: cross-cutting skills, commands, and workflows for AI agents working with Recoup's chat, API, and platform surface. Includes the getting-started onboarding skill that runs email+PIN verification, issues an API key, and prints a memory block for Settings → Global instructions.",
-      "version": "0.2.0",
+      "description": "Recoup account setup and platform workflows: host-managed MCP OAuth, workspace discovery and separate secure REST credentials.",
+      "version": "0.2.1",
       "author": {
         "name": "Recoup",
         "email": "agent@recoupable.com",
@@ -67,24 +68,27 @@
         "music",
         "ai-agents",
         "agent-skills",
-        "chat",
-        "platform-tooling"
+        "account-setup",
+        "oauth",
+        "rest"
       ],
       "category": "Music",
       "tags": [
         "recoup-platform-plugin",
-        "platform-tooling",
-        "ai-agents"
+        "account-setup",
+        "oauth",
+        "rest"
       ]
     },
     {
       "name": "recoup-content-plugin",
       "source": {
         "source": "github",
-        "repo": "recoupable/recoup-content-plugin"
+        "repo": "recoupable/recoup-content-plugin",
+        "sha": "9d3cf8120a457a3ed84643e174e6cd8f49d96dac"
       },
       "description": "Recoup content workflows: skills and commands for AI agents to draft, edit, and publish content for artists across Recoup's surfaces.",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "author": {
         "name": "Recoup",
         "email": "agent@recoupable.com",
@@ -113,10 +117,11 @@
       "name": "recoup-research-plugin",
       "source": {
         "source": "github",
-        "repo": "recoupable/recoup-research-plugin"
+        "repo": "recoupable/recoup-research-plugin",
+        "sha": "e9a306715cdf7e36e21040e4a47ee0f5efd8f76f"
       },
-      "description": "Music industry research: artist analytics, audience insights, playlist intelligence, competitive analysis, trend detection, and outreach — powered by Recoup's research API.",
-      "version": "0.2.0",
+      "description": "Music industry research: artist analytics, audience insights, playlist intelligence, competitive analysis, trend detection, and outreach \u2014 powered by Recoup's research API.",
+      "version": "0.2.1",
       "author": {
         "name": "Recoup",
         "email": "support@recoupable.com",
@@ -133,7 +138,6 @@
         "audience-analysis",
         "competitive-analysis",
         "trend-detection",
-        "chartmetric",
         "music-industry",
         "agent-skills"
       ],
