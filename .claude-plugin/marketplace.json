@@ -50,7 +50,7 @@
       "source": {
         "source": "github",
         "repo": "recoupable/recoup-platform-plugin",
-        "sha": "f140a92fba58520e6c8fad02313a62665b740190"
+        "sha": "d5bdffab9cbd6b369c09586e1fd7b3edf1bcaf8c"
       },
       "description": "Recoup account setup and platform workflows: host-managed MCP OAuth, workspace discovery and separate secure REST credentials.",
       "version": "0.2.1",
