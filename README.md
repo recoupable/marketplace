@@ -8,7 +8,7 @@ This repo is a curated plugin marketplace for Claude Code, Claude Cowork, and Co
 
 | Plugin | Purpose |
 | ------ | ------- |
-| `recoup-catalog-deals` | Music catalog deals: data-room ingestion, royalty normalization, rights checks, and valuation analysis for buy-side, seller-prep, financing, and post-close. |
+| `recoup-catalogs-plugin` | Music catalog deals: data-room ingestion, royalty normalization, rights checks, and valuation analysis for buy-side, seller-prep, financing, and post-close. |
 | `recoup-platform-plugin` | Recoup account setup and platform workflows: host-managed MCP OAuth, workspace discovery and separate secure REST credentials. |
 | `recoup-content-plugin` | Recoup content workflows: skills and commands for AI agents to draft, edit, and publish content for artists across Recoup's surfaces. |
 | `recoup-research-plugin` | Music industry research: artist analytics, audience insights, playlist intelligence, competitive analysis, trend detection, and outreach — powered by Recoup's research API. |
@@ -19,7 +19,7 @@ Add the marketplace, then install the plugin you need:
 
 ```bash
 /plugin marketplace add recoupable/marketplace
-/plugin install recoup-catalog-deals@recoup-marketplace
+/plugin install recoup-catalogs-plugin@recoup-marketplace
 ```
 
 Claude Code reads the marketplace from `.claude-plugin/marketplace.json`. Each plugin entry uses a `github` source object so the plugin is fetched from its own repo, independent of any submodule the registry uses internally.
