@@ -2,6 +2,11 @@
 
 Registry repo for Recoup agent plugins.
 
+Contributors: [package ownership and maintenance](MAINTENANCE.md) identifies where
+to author a capability, how to propagate a shared fix, and how the standalone
+plugins coexist with the consolidated `recoup-plugin`. Both families retain their
+own source and release process; neither is an automatic mirror of the other.
+
 This repo is a curated plugin marketplace for Claude Code, Claude Cowork, and Codex. Each plugin lives in its own GitHub repo (referenced from the marketplace files in this registry) so it can be developed, versioned, and distributed independently.
 
 ## Plugins
