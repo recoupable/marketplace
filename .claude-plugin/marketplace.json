@@ -10,7 +10,8 @@
       "name": "recoup-catalogs-plugin",
       "source": {
         "source": "github",
-        "repo": "recoupable/recoup-catalogs-plugin"
+        "repo": "recoupable/recoup-catalogs-plugin",
+        "sha": "b52bd06079937bb38b96f215a43dfe45b6fc2d95"
       },
       "description": "Music catalog deals: data-room ingestion, royalty normalization, rights checks, and valuation analysis for buy-side, seller-prep, financing, and post-close.",
       "version": "0.3.1",
