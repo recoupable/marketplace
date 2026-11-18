@@ -1,0 +1,19 @@
+name: Validate marketplace
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  registry:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          persist-credentials: false
+      - name: Test registry guard
+        run: python3 -m unittest discover -s tests -v
+      - name: Verify registry pins and child manifests
+        run: python3 scripts/validate_marketplace.py

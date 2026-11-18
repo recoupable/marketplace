@@ -89,6 +89,18 @@ reviewed release.
 
 ## Release checklist
 
+Run `python3 -m unittest discover -s tests -v` and
+`python3 scripts/validate_marketplace.py` before opening a registry PR. The
+guard checks both marketplace names, versions, repository sources and immutable
+pins against the indexed gitlinks and manifests read from those exact child
+commits. Stage intended submodule changes before validating. CI checks out the
+selected child revisions and runs the same checks on every PR and main push.
+For an isolated worktree with uninitialized submodules, pass
+`--plugin-root /absolute/path/to/existing/registry` to read existing child Git
+objects without changing their checkouts or downloading anything. Missing child
+objects fail validation. These checks establish registry consistency; the runtime
+installation requirement below remains separate.
+
 Before adding or updating a plugin in this registry, verify these requirements:
 
 - Add or update `.claude-plugin/plugin.json` in the plugin's own repo.
