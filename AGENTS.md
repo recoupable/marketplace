@@ -10,8 +10,14 @@ product-like bundles live here as plugins.
 - `.agents/plugins/marketplace.json`: Codex marketplace.
 - `{plugin-name}/`: nested submodule for one installable plugin.
 
-Each plugin is its own repository and owns its own `AGENTS.md`, manifests,
-skills, commands, agents, scripts, templates, and tests.
+Each plugin is its own repository and owns its manifests, skills and supporting
+components. The currently selected children document development in their
+`README.md`; they do not currently have `AGENTS.md`. Read the child README and any
+instructions added in a later release before editing.
+
+Read [MAINTENANCE.md](MAINTENANCE.md) for capability ownership, retained package
+support, shared-fix propagation and release responsibilities across this registry
+and the consolidated Skills distribution.
 
 ## When to create a plugin
 
